@@ -1,4 +1,5 @@
-﻿public class Animal
+﻿
+public class Animal
 {
     public String Name { get; set; }
     public bool HasFur { get; set; }

@@ -24,7 +24,7 @@ Animal[] favoriteAnimals = new Animal[FAVORITE_ANIMALS];
 favoriteAnimals[0] = animals[Random.Shared.Next(animals.Length)];
 int i = 1;
 
-for(; i < FAVORITE_ANIMALS; i++)
+for(;  i < FAVORITE_ANIMALS; i++)
 {
     favoriteAnimals[i] = animals[Random.Shared.Next(animals.Length)];
 

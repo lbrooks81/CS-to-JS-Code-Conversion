@@ -1,6 +1,6 @@
 ﻿public class Dog : Animal
 {
-    public String Breed { get; set; }
+    private String Breed { get; set; }
 
     public Dog(String name, bool hasFur, int numberOfLegs, double sizeInFeet, String breed) 
         : base(name, hasFur, numberOfLegs, sizeInFeet)
